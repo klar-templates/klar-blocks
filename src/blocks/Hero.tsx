@@ -1,6 +1,3 @@
-import Button from '../components/elements/Button';
-import RenderStyle from '../components/RenderStyle';
-
 export default function Hero(data: any) {
   const {
     _id,
@@ -61,7 +58,7 @@ export default function Hero(data: any) {
         </div>
         <div className="background"></div>
       </section>
-      <RenderStyle>
+      <style>
         {`
           #${_id} {
             background-image: url('${image}');
@@ -124,7 +121,7 @@ export default function Hero(data: any) {
             position: absolute;
           }
         `}
-      </RenderStyle>
+      </style>
     </>
   );
 }
