@@ -5,3 +5,5 @@ const klarComponents: any = {
 };
 
 window.klarComponents = klarComponents;
+
+console.log(window.klarComponents);
